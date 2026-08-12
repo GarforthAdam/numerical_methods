@@ -31,6 +31,8 @@ The distinct files are self-contained; each file can run start to finish on its 
 
 The individual files can be located through the filetree below:
 
+```
+
 /numerical_methods
 |
 |- /Electrostatics
@@ -44,7 +46,7 @@ The individual files can be located through the filetree below:
 |- /assets
 |   |- poisson_result.png
 |   |- contour_plt.png
-
+```
 
 ## Poisson Problem
 
