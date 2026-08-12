@@ -24,14 +24,14 @@ This README is structured as follows:
 NOTE that these pipelines were compiled and ran in a WSL virtual environment; commands might differ in other versions.
 
 The entire repository can be installed from the Github page:
-`git clone https://github.com/GarforthAdam/numerical-methods_test`
-`cd numerical_methods_test`
+`git clone https://github.com/GarforthAdam/numerical-methods`
+`cd numerical_methods`
 
 The distinct files are self-contained; each file can run start to finish on its own. However, ensure that a `Fortran` compiler is installed. It is recommended to use `gfortran`.
 
 The individual files can be located through the filetree below:
 
-/assigment_code
+/numerical_methods
 |
 |- /Electrostatics
 |    |- poisson.f90
