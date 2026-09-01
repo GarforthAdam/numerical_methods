@@ -9,12 +9,12 @@ This README is structured as follows:
 ## Content
 1. [Installation and Setup](#installation-and-setup)
 2. [Poisson Problem](#poisson-problem)
-3. [Cosmologyl](#Cosmology)
+3. [Cosmology](#Cosmology)
     * [Numerical integration to measure Luminosity distance](#numerical-integration-to-measure-luminosity-distance)
-    * [Pantheon+ data set](#pantheon+-data-set)
+    * [Pantheon data set](#pantheon-data-set)
         * [Concepts Utilized](#concepts-utilized)
         * [Numerical Methods Employed](#numerical-methods-employed)
-4. [Acknowledgements](#acknowledgments)
+4. [Acknowledgements](#acknowledgements)
 5. [References](#references)
 6. [License](#license)
 
@@ -159,7 +159,7 @@ Then, using the plotted graph, one should be able to clearly identify the open, 
 
 
 
-### Pantheon+ data set
+### Pantheon data set
 
 #### Concepts Utilized
 The Pantheon+ data set described in Scolnic, et al. (2021) and the associated cosmological fits within Brout, et al. (2022) are used in conjunction with the previously described model to determine a $\chi^2$ fit for the universe. Additionally, a contour plot for the $\chi^2$ fit is created separately to determine the ideal values of the cosmological parameters to describe our universe. 
