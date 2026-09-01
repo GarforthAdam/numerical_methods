@@ -7,9 +7,9 @@ The languages used are Fortran and Python. The context of the code is generally 
 This README is structured as follows:
 
 ## Content
-1. [Installation/Setup](#installation/setup)
-2. [Electrostatics (Poisson Problem)](#poisson-problem)
-3. [Cosmological](#Cosmology)
+1. [Installation and Setup](#installation-and-setup)
+2. [Poisson Problem](#poisson-problem)
+3. [Cosmologyl](#Cosmology)
     * [Numerical integration to measure Luminosity distance](#numerical-integration-to-measure-luminosity-distance)
     * [Pantheon+ data set](#pantheon+-data-set)
         * [Concepts Utilized](#concepts-utilized)
@@ -19,7 +19,7 @@ This README is structured as follows:
 6. [License](#license)
 
 
-## Installation/Setup 
+## Installation and Setup 
 
 NOTE that these pipelines were compiled and ran in a WSL virtual environment; commands might differ in other versions.
 
@@ -160,6 +160,7 @@ Then, using the plotted graph, one should be able to clearly identify the open, 
 
 
 ### Pantheon+ data set
+
 #### Concepts Utilized
 The Pantheon+ data set described in Scolnic, et al. (2021) and the associated cosmological fits within Brout, et al. (2022) are used in conjunction with the previously described model to determine a $\chi^2$ fit for the universe. Additionally, a contour plot for the $\chi^2$ fit is created separately to determine the ideal values of the cosmological parameters to describe our universe. 
 
