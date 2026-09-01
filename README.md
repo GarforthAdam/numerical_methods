@@ -91,7 +91,7 @@ $$u_{new}(x,y) = \frac{u(x+1,y) + u(x-1,y) + u(x,y+1) + u (x,y-1) + 4\pi H^2q(x,
 
 , where $u_{new}(x,y) calculates the new potential at the desired grid point, $u(x\pm1, y\pm 1)$ gives the potential at the surrounding 4 grid points, H is the grid size, q(x,y) is the initial potential at the grid point.
 
-The convergence point is defined as the point where the charge value is changed by $ \geq 10^{-4}$. At this point the program will stop iterating and provide the results.
+The convergence point is defined as the point where the charge value is changed by $\geq 10^{-4}$. At this point the program will stop iterating and provide the results.
 
 The final grid is saved to a GNUplot output and is viewable through gnuplot commands. 
 
@@ -128,17 +128,19 @@ and $d_H = \frac{c}{H_0}$. This comoving distance equation is primarily derived 
 - A perfect fluid, one that can ignore the fluid properties of viscosity and containing heat
 
 The angular diameter distance (how far away an object is based on its physical/angular size) is:
+
 $$d_A = \frac{1}{1+z}S_{\kappa}(d_C(z))$$
+
 where $S_{\kappa}$ is defined as:
 
-$$
-S_{\kappa} = 
+$$S_{\kappa} = 
 \begin{cases} 
 R_0\sin(\frac{r}{R_0}) & \text{if } \kappa = +1 \\
 r & \text{if } \kappa = 0  \\
 R_0\sinh(\frac{r}{R_0}) & \text{if } \kappa = -1
 \end{cases}
 $$
+
 , where $R_0$ is the present day radius of curvature of the universe, and $r$ is the curvature at the desired redshift.
 
 By using the relation for luminosity distance (distance measurements from the luminosity of the object):
@@ -178,6 +180,7 @@ $$\chi^2 = \sum_i \frac{(m_i - m_{model}(z_i;\Omega_m,\Omega_{\Lambda,H_0,M}))^2
 where index i iterates over all supernova, $m_i$ is the corrected apparent magnitude, $z_i$ is the redshift, $\sigma_{m,i}$ is the uncertainty in the apparent magnitude, and $m_{model}(z_i;\Omega_m,\Omega_{\Lambda,H_0,M})$ is the apparent magnitude predicted by the cosmological model. This equation can also be described as:
 
 $$\chi^2 = \sum_i \frac{(m_i - f(\frac{d_L(z_i)}{d_H};\Omega_m, \Omega_{\Lambda}) - C)^2 }{\sigma_{m,i}^2}$$
+
 , where C represents the dependence on $H_0$ and M, but not on redshift, thus it is the same for every supernova. 
 We must find the value of C that minimizes $\chi^2$, $\hat{C}$. As such, $\chi^2$ must be differentiated with respect to C:
 
